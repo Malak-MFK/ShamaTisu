@@ -115,7 +115,7 @@ class ArticleController extends Controller
     {
         $orders = Order::all();
 
-        $pdf = PDF::loadView('pdf.report', compact('orders'));
+        $pdf = PDF::loadView('orders.orderPDF', compact('orders'));
 
         return $pdf->download('report.pdf');
     }

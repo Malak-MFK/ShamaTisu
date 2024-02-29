@@ -14,12 +14,14 @@
             </tr>
         </thead>
         <tbody>
-            {{-- @foreach ($reports as $report) --}}
+            @foreach ($orders as $report)
                 <tr>
                     <td>{{ '$report->id' }}</td>
                     <td>{{ '$report->detail' }}</td>
+                    <td>{{ '$report->quantite' }}</td>
+                    <td>{{ '$report->total' }}</td>
                 </tr>
-            {{-- @endforeach --}}
+            @endforeach
         </tbody>
     </table>
 </body>

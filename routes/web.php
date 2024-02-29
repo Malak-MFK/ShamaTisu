@@ -22,7 +22,7 @@ Route::middleware('auth')->get('/', function () {
 
 Route::middleware('auth')->resource('articles', ArticleController::class);
 
-Route::get('/generate-pdf', [OrderController::class, 'generatePDF']);
+Route::get('/generate-pdf', [ArticleController::class, 'generatePDF']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
