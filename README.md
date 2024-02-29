@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## Description projet
+
+Le projet concerne une plateforme de vente de Tiramisù en ligne où les utilisateurs peuvent parcourir, consulter les détails et acheter différents produits. Voici un récapitulatif des différentes fonctionnalités composant ce projet :
+1.	Authentification des utilisateurs : Les utilisateurs peuvent s'inscrire, se connecter et se déconnecter de la plateforme
+2.	Gestion des articles : Les articles sont présentés sur la plateforme avec des détails tels que le titre, la description, l'image et les possibles allergènes pouvant s’y trouver. Les utilisateurs peuvent consulter les articles et leurs détails et aussi les ajouter dans leur panier. L’administrateurs peut ajouter, modifier ou supprimer les articles.
+3.	Importation/exportation de données : l’administrateur peut importer et exporter des données de produits via des fichiers Excel 
+4.	Génération de PDF de reçus : Le projet comprend également la fonctionnalité de génération de fichiers PDF contenant le reçu de paiement (total, quantité, id etc…).
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
